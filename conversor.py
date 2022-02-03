@@ -11,6 +11,8 @@ def conversor(tipo_moneda, valor_dolar, valor_pesos):
         valor_dolar = valor_pesos / valor_dolar
         round_result = round(valor_dolar, 2)
         print("El valor en dolares es: U$S ", round_result)
+    else:
+        print("Error, opcion o monedas no validas")
 
 
 menu = """
